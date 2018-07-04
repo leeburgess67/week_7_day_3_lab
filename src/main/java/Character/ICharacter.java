@@ -6,8 +6,10 @@ public interface ICharacter {
     void reduceHealth(int damage);
     void increaseHealth(int heal);
     boolean isEnemy();
-    double getWallet();
-    void pay(double cost);
-    void receiveMoney(double amount);
+    int getWallet();
+    void pay(int cost);
+    void receiveMoney(int amount);
+    String getName();
+
 
 }
