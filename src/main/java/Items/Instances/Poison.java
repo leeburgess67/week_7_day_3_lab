@@ -1,4 +1,11 @@
 package Items.Instances;
 
-public class Poison {
+import Items.ItemType.Spell;
+
+public class Poison extends Spell {
+    public Poison(String name, int damage, int magicUsed) {
+        super(name, damage, magicUsed);
+    }
+
+
 }
