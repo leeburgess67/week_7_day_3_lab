@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9d56cb-d1c7-4d9f-97a8-272351e71739" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/Instances/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/Instances/Potion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HealingItemTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PotionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PotionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/Instances/Herb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/Instances/Herb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HerbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HerbTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,25 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmallSwordTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SmallSwordTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PotionTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PotionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PotionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+            <state relative-caret-position="319">
+              <caret line="20" column="9" lean-forward="true" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#448#449#0" expanded="true" />
@@ -73,10 +58,43 @@
       <file leaf-file-name="HealingItem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Items/ItemType/HealingItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="270">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Herb.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Items/Instances/Herb.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <folding>
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HerbTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/HerbTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="584">
+              <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -419,6 +437,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ThunderTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Items/Instances/Potion.java" />
         <option value="$PROJECT_DIR$/src/test/java/PotionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HerbTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Items/Instances/Herb.java" />
       </list>
     </option>
   </component>
@@ -565,7 +585,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PotionTest">
+  <component name="RunManager" selected="JUnit.HerbTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -586,18 +606,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LongSwordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HerbTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyLab_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Items.Instances.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Items.Instances.LongSwordTest" />
+      <option name="MAIN_CLASS_NAME" value="HerbTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -699,19 +713,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.LongSwordTest" />
       <item itemvalue="JUnit.FireTest" />
       <item itemvalue="JUnit.PoisonTest" />
       <item itemvalue="JUnit.ThunderTest" />
       <item itemvalue="JUnit.PotionTest" />
+      <item itemvalue="JUnit.HerbTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HerbTest" />
         <item itemvalue="JUnit.PotionTest" />
         <item itemvalue="JUnit.ThunderTest" />
         <item itemvalue="JUnit.PoisonTest" />
         <item itemvalue="JUnit.FireTest" />
-        <item itemvalue="JUnit.LongSwordTest" />
       </list>
     </recent_temporary>
   </component>
@@ -729,15 +743,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AxeTest - 2018.07.04 at 13h 35m 11s.xml">
-      <configuration name="AxeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_FantasyLab_test - 2018.07.04 at 13h 40m 41s.xml">
-      <configuration name="All in FantasyLab_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SmallSwordTest - 2018.07.04 at 13h 40m 51s.xml">
-      <configuration name="SmallSwordTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LongSwordTest - 2018.07.04 at 13h 43m 36s.xml">
       <configuration name="LongSwordTest" configurationId="JUnit" />
     </history-entry>
@@ -758,6 +763,15 @@
     </history-entry>
     <history-entry file="ThunderTest - 2018.07.04 at 13h 56m 44s.xml">
       <configuration name="ThunderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PotionTest - 2018.07.04 at 14h 02m 17s.xml">
+      <configuration name="PotionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PotionTest - 2018.07.04 at 14h 02m 36s.xml">
+      <configuration name="PotionTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PotionTest - 2018.07.04 at 14h 03m 38s.xml">
+      <configuration name="PotionTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1013,13 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HerbTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpellTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1065,13 +1072,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Items/Instances/Herb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1304,8 +1304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Items/ItemType/HealingItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="270">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1314,8 +1314,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PotionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        <state relative-caret-position="319">
+          <caret line="20" column="9" lean-forward="true" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#448#449#0" expanded="true" />
@@ -1326,6 +1326,35 @@
             <element signature="e#742#743#0" expanded="true" />
             <element signature="e#800#801#0" expanded="true" />
             <element signature="e#857#858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Items/Instances/Herb.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HerbTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
           </folding>
         </state>
       </provider>
