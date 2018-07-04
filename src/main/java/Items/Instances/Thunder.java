@@ -1,4 +1,10 @@
 package Items.Instances;
 
-public class Thunder {
+import Items.ItemType.Spell;
+
+public class Thunder extends Spell {
+
+    public Thunder(String name, int damage, int magicUsed) {
+        super(name, damage, magicUsed);
+    }
 }

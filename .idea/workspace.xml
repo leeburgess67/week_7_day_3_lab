@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9d56cb-d1c7-4d9f-97a8-272351e71739" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Items/Instances/Fire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/Instances/Fire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FireTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FireTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Items/Instances/Thunder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Items/Instances/Thunder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ThunderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ThunderTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,11 +25,44 @@
       <file leaf-file-name="Fire.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Items/Instances/Fire.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="11" />
               <folding>
                 <element signature="e#146#147#0" expanded="true" />
                 <element signature="e#192#193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thunder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Items/Instances/Thunder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+              <folding>
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThunderTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ThunderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FireTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FireTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FireTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="230">
+              <caret line="23" column="5" lean-forward="true" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
@@ -60,8 +93,27 @@
                 <element signature="e#448#449#0" expanded="true" />
                 <element signature="e#484#485#0" expanded="true" />
                 <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PoisonTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PoisonTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+              <folding>
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#562#563#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -396,8 +448,12 @@
         <option value="$PROJECT_DIR$/src/test/java/SmallSwordTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Items/Instances/LongSword.java" />
         <option value="$PROJECT_DIR$/src/test/java/LongSwordTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FireTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Items/Instances/Fire.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FireTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Items/Instances/Poison.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PoisonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Items/Instances/Thunder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ThunderTest.java" />
       </list>
     </option>
   </component>
@@ -544,26 +600,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PoisonTest">
+  <component name="RunManager" selected="JUnit.ThunderTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="All in FantasyLab_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyLab_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="FireTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyLab_test" />
@@ -645,6 +684,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="ThunderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLab_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ThunderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -684,19 +740,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in FantasyLab_test" />
       <item itemvalue="JUnit.SmallSwordTest" />
       <item itemvalue="JUnit.LongSwordTest" />
       <item itemvalue="JUnit.FireTest" />
       <item itemvalue="JUnit.PoisonTest" />
+      <item itemvalue="JUnit.ThunderTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThunderTest" />
         <item itemvalue="JUnit.PoisonTest" />
         <item itemvalue="JUnit.FireTest" />
         <item itemvalue="JUnit.LongSwordTest" />
         <item itemvalue="JUnit.SmallSwordTest" />
-        <item itemvalue="JUnit.All in FantasyLab_test" />
       </list>
     </recent_temporary>
   </component>
@@ -728,6 +784,15 @@
     </history-entry>
     <history-entry file="LongSwordTest - 2018.07.04 at 13h 43m 52s.xml">
       <configuration name="LongSwordTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FireTest - 2018.07.04 at 13h 50m 49s.xml">
+      <configuration name="FireTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FireTest - 2018.07.04 at 13h 51m 30s.xml">
+      <configuration name="FireTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PoisonTest - 2018.07.04 at 13h 54m 47s.xml">
+      <configuration name="PoisonTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -796,6 +861,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PoisonTest.java</url>
+          <line>8</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Items/Instances/Poison.java">
@@ -971,13 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PoisonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HealingItemTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -992,24 +1062,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PotionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpellTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ThunderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1077,21 +1133,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Items/Instances/Poison.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Items/Instances/Potion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Items/Instances/Thunder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1230,10 +1272,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Items/Instances/Fire.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Items/Instances/Poison.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="e#146#147#0" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
@@ -1241,10 +1283,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PotionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FireTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        <state relative-caret-position="230">
+          <caret line="23" column="5" lean-forward="true" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
@@ -1253,8 +1302,65 @@
             <element signature="e#448#449#0" expanded="true" />
             <element signature="e#484#485#0" expanded="true" />
             <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PoisonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Items/Instances/Fire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="11" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Items/Instances/Thunder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ThunderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
           </folding>
         </state>
       </provider>
