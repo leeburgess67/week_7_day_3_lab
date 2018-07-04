@@ -1,4 +1,4 @@
-package Items.ItemType;
+package Items.Instances;
 
 public class Thunder {
 }
