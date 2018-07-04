@@ -585,7 +585,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SmallSwordTest">
+  <component name="RunManager" selected="JUnit.LongSwordTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -618,6 +618,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Items.Instances" />
       <option name="MAIN_CLASS_NAME" value="Items.Instances.AxeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LongSwordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLab_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Items.Instances.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Items.Instances.LongSwordTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -694,9 +717,11 @@
       <item itemvalue="JUnit.AxeTest" />
       <item itemvalue="JUnit.All in FantasyLab_test" />
       <item itemvalue="JUnit.SmallSwordTest" />
+      <item itemvalue="JUnit.LongSwordTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongSwordTest" />
         <item itemvalue="JUnit.SmallSwordTest" />
         <item itemvalue="JUnit.All in FantasyLab_test" />
         <item itemvalue="JUnit.AxeTest" />
