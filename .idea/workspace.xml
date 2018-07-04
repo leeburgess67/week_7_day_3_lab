@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9d56cb-d1c7-4d9f-97a8-272351e71739" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Character/Instances/WizardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Character/Instances/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Character/Instances/Wizard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/Character/Instances/WizardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Character/Instances/WizardTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Character/Instances/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Character/Instances/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Character/Instances/WizardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Character/Instances/WizardTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,8 +28,8 @@
       <file leaf-file-name="Dwarf.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Character/Instances/Dwarf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="354">
+              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="47" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,8 +40,8 @@
       <file leaf-file-name="WizardTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Character/Instances/WizardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="225">
+              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
               <folding>
                 <element signature="e#536#537#0" expanded="true" />
                 <element signature="e#566#567#0" expanded="true" />
@@ -79,20 +82,24 @@
       <file leaf-file-name="Wizard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Character/Instances/Wizard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+            <state relative-caret-position="223">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1248#1249#0" expanded="true" />
-                <element signature="e#1412#1413#0" expanded="true" />
-                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1088#1089#0" expanded="true" />
+                <element signature="e#1146#1147#0" expanded="true" />
+                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#1272#1273#0" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
+                <element signature="e#1395#1396#0" expanded="true" />
+                <element signature="e#1429#1430#0" expanded="true" />
+                <element signature="e#1653#1654#0" expanded="true" />
+                <element signature="e#1685#1686#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,6 +115,11 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -439,8 +451,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Character/ClassTypes/IMelee.java" />
         <option value="$PROJECT_DIR$/src/main/java/Character/Instances/Dwarf.java" />
         <option value="$PROJECT_DIR$/src/test/java/Character/Instances/DwarfTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Character/Instances/WizardTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Character/Instances/Wizard.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Character/Instances/WizardTest.java" />
       </list>
     </option>
   </component>
@@ -605,101 +617,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WizardTest">
+  <component name="RunManager" selected="JUnit.WizardTest.cast">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DwarfTest.attack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyLab_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Character.Instances.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Character.Instances" />
-      <option name="MAIN_CLASS_NAME" value="Character.Instances.DwarfTest" />
-      <option name="METHOD_NAME" value="attack" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DwarfTest.canPickUpWeapon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyLab_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Character.Instances.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Character.Instances" />
-      <option name="MAIN_CLASS_NAME" value="Character.Instances.DwarfTest" />
-      <option name="METHOD_NAME" value="canPickUpWeapon" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DwarfTest.draw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyLab_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Character.Instances.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Character.Instances" />
-      <option name="MAIN_CLASS_NAME" value="Character.Instances.DwarfTest" />
-      <option name="METHOD_NAME" value="draw" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="DwarfTest.sheath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyLab_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Character.Instances.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="Character.Instances" />
-      <option name="MAIN_CLASS_NAME" value="Character.Instances.DwarfTest" />
-      <option name="METHOD_NAME" value="sheath" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="WizardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyLab_test" />
@@ -715,6 +635,98 @@
       <option name="MAIN_CLASS_NAME" value="Character.Instances.WizardTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WizardTest.cast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLab_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Character.Instances.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Character.Instances" />
+      <option name="MAIN_CLASS_NAME" value="Character.Instances.WizardTest" />
+      <option name="METHOD_NAME" value="cast" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WizardTest.increaseHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLab_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Character.Instances.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Character.Instances" />
+      <option name="MAIN_CLASS_NAME" value="Character.Instances.WizardTest" />
+      <option name="METHOD_NAME" value="increaseHealth" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WizardTest.receiveMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLab_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Character.Instances.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Character.Instances" />
+      <option name="MAIN_CLASS_NAME" value="Character.Instances.WizardTest" />
+      <option name="METHOD_NAME" value="receiveMoney" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WizardTest.reduceHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyLab_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Character.Instances.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Character.Instances" />
+      <option name="MAIN_CLASS_NAME" value="Character.Instances.WizardTest" />
+      <option name="METHOD_NAME" value="reduceHealth" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -763,19 +775,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DwarfTest.canPickUpWeapon" />
-      <item itemvalue="JUnit.DwarfTest.draw" />
-      <item itemvalue="JUnit.DwarfTest.sheath" />
-      <item itemvalue="JUnit.DwarfTest.attack" />
       <item itemvalue="JUnit.WizardTest" />
+      <item itemvalue="JUnit.WizardTest.reduceHealth" />
+      <item itemvalue="JUnit.WizardTest.increaseHealth" />
+      <item itemvalue="JUnit.WizardTest.receiveMoney" />
+      <item itemvalue="JUnit.WizardTest.cast" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WizardTest.cast" />
         <item itemvalue="JUnit.WizardTest" />
-        <item itemvalue="JUnit.DwarfTest.attack" />
-        <item itemvalue="JUnit.DwarfTest.sheath" />
-        <item itemvalue="JUnit.DwarfTest.draw" />
-        <item itemvalue="JUnit.DwarfTest.canPickUpWeapon" />
+        <item itemvalue="JUnit.WizardTest.receiveMoney" />
+        <item itemvalue="JUnit.WizardTest.increaseHealth" />
+        <item itemvalue="JUnit.WizardTest.reduceHealth" />
       </list>
     </recent_temporary>
   </component>
@@ -793,35 +805,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DwarfTest_pay - 2018.07.04 at 14h 32m 54s.xml">
-      <configuration name="DwarfTest.pay" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DwarfTest_receiveMoney - 2018.07.04 at 14h 33m 41s.xml">
-      <configuration name="DwarfTest.receiveMoney" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DwarfTest_reduceHealth - 2018.07.04 at 14h 34m 55s.xml">
-      <configuration name="DwarfTest.reduceHealth" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DwarfTest_increaseHealth - 2018.07.04 at 14h 35m 36s.xml">
-      <configuration name="DwarfTest.increaseHealth" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DwarfTest_canPickUpWeapon - 2018.07.04 at 14h 37m 46s.xml">
-      <configuration name="DwarfTest.canPickUpWeapon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DwarfTest_canPickUpWeapon - 2018.07.04 at 14h 38m 24s.xml">
-      <configuration name="DwarfTest.canPickUpWeapon" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DwarfTest_draw - 2018.07.04 at 14h 40m 50s.xml">
-      <configuration name="DwarfTest.draw" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DwarfTest_sheath - 2018.07.04 at 14h 42m 37s.xml">
-      <configuration name="DwarfTest.sheath" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DwarfTest_attack - 2018.07.04 at 14h 45m 13s.xml">
       <configuration name="DwarfTest.attack" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DwarfTest_attack - 2018.07.04 at 14h 45m 40s.xml">
       <configuration name="DwarfTest.attack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WizardTest - 2018.07.04 at 14h 58m 07s.xml">
+      <configuration name="WizardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WizardTest_replenishMagic - 2018.07.04 at 18h 09m 14s.xml">
+      <configuration name="WizardTest.replenishMagic" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WizardTest_replenishMagic - 2018.07.04 at 18h 11m 19s.xml">
+      <configuration name="WizardTest.replenishMagic" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WizardTest_reduceHealth - 2018.07.04 at 18h 31m 52s.xml">
+      <configuration name="WizardTest.reduceHealth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WizardTest_increaseHealth - 2018.07.04 at 18h 33m 05s.xml">
+      <configuration name="WizardTest.increaseHealth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WizardTest_increaseHealth - 2018.07.04 at 18h 33m 39s.xml">
+      <configuration name="WizardTest.increaseHealth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WizardTest_receiveMoney - 2018.07.04 at 18h 35m 48s.xml">
+      <configuration name="WizardTest.receiveMoney" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WizardTest - 2018.07.04 at 18h 35m 52s.xml">
+      <configuration name="WizardTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -836,12 +848,13 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.24121211" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.24121211" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17095852" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17095852" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -855,7 +868,6 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="3" weight="0.28" />
-      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="5" />
@@ -900,7 +912,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1354,26 +1366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Character/ClassTypes/ICaster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Character/Instances/Dwarf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FireTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -1393,30 +1385,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Character/Instances/Wizard.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Character/ClassTypes/ICaster.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
+        <state relative-caret-position="102">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Character/Instances/Dwarf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="47" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Character/Instances/Wizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Character/Instances/WizardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="225">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
           <folding>
             <element signature="e#536#537#0" expanded="true" />
             <element signature="e#566#567#0" expanded="true" />

@@ -19,31 +19,40 @@ public class WizardTest {
         fire = new Fire("Fire", 7, 5);
     }
 
-//    @Test
-//    public void cast() {
-//    }
+    @Test
+    public void cast() {
+        wizard.cast(fire, wizard2);
+        assertEquals(13, wizard2.getHealth());
+
+    }
 
     @Test
     public void remainingMagic() {
         assertEquals(30, wizard.remainingMagic());
     }
 
-//    @Test
-//    public void replenishMagic() {
-//    }
+    @Test
+    public void replenishMagic() {
+        wizard.replenishMagic(5);
+        assertEquals(35, wizard.remainingMagic());
+    }
 
     @Test
     public void getHealth() {
         assertEquals(20, wizard.getHealth());
     }
 
-//    @Test
-//    public void reduceHealth() {
-//    }
-//
-//    @Test
-//    public void increaseHealth() {
-//    }
+    @Test
+    public void reduceHealth() {
+        wizard.reduceHealth(5);
+        assertEquals(15, wizard.getHealth());
+    }
+
+    @Test
+    public void increaseHealth() {
+        wizard.increaseHealth(5);
+        assertEquals(25, wizard.getHealth());
+    }
 
     @Test
     public void isEnemy() {
@@ -55,13 +64,17 @@ public class WizardTest {
         assertEquals(40, wizard.getWallet());
     }
 
-//    @Test
-//    public void pay() {
-//    }
-//
-//    @Test
-//    public void receiveMoney() {
-//    }
+    @Test
+    public void pay() {
+        wizard.pay(5);
+        assertEquals(35, wizard.getWallet());
+    }
+
+    @Test
+    public void receiveMoney() {
+        wizard.receiveMoney(5);
+        assertEquals(45, wizard.getWallet());
+    }
 
     @Test
     public void getName() {

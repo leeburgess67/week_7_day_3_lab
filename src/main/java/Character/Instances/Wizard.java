@@ -17,7 +17,7 @@ public class Wizard implements ICaster {
     int wallet;
     String name;
 
-    public Wizard(String name, int health, int magic, boolean enemy, int wallet){
+    public Wizard(String name, int health, int magic, boolean enemy, int wallet) {
         this.wallet = wallet;
         this.activeSpell = null;
         this.magic = magic;
@@ -29,6 +29,7 @@ public class Wizard implements ICaster {
 
     @Override
     public void cast(Spell spell, ICharacter targetCharacter) {
+        targetCharacter.reduceHealth(spell.getDamage());
 
     }
 
@@ -39,6 +40,7 @@ public class Wizard implements ICaster {
 
     @Override
     public void replenishMagic(int amount) {
+        this.magic += amount;
 
     }
 
@@ -49,12 +51,12 @@ public class Wizard implements ICaster {
 
     @Override
     public void reduceHealth(int damage) {
-
+        this.health -= damage;
     }
 
     @Override
     public void increaseHealth(int heal) {
-
+        this.health += heal;
     }
 
     @Override
@@ -69,11 +71,13 @@ public class Wizard implements ICaster {
 
     @Override
     public void pay(int cost) {
+        this.wallet -= cost;
 
     }
 
     @Override
     public void receiveMoney(int amount) {
+        this.wallet += amount;
 
     }
 
