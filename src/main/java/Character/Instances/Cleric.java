@@ -4,7 +4,7 @@ import Character.ClassTypes.IHealer;
 import Items.ItemType.HealingItem;
 import Character.ICharacter;
 
-public class Cleric implements IHealer {
+public class Cleric implements IHealer{
 
     private int health;
     boolean enemy;

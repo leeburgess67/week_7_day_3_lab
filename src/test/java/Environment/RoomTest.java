@@ -8,6 +8,8 @@ import Character.Instances.Dwarf;
 import Character.Instances.Wizard;
 import Items.ITreasure;
 import Items.Instances.MoneyBag;
+import Items.ItemType.Spell;
+import Items.ItemType.Weapon;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -26,6 +28,8 @@ public class RoomTest {
     ArrayList<ICaster> casters;
     ArrayList<IHealer> healers;
     ArrayList<ITreasure> treasures;
+    Weapon axe;
+    Spell fire;
 
     @Before
     public void setUp() {
@@ -33,6 +37,8 @@ public class RoomTest {
         dwarf = new Dwarf("Littlejohn", 5, true, 100);
         wizard = new Wizard("Weasel", 9, 8, false, 60);
         moneyBag = new MoneyBag(10);
+
+        dwarf.draw(axe);
 
         melees = new ArrayList<IMelee>();
         casters = new ArrayList<ICaster>();
@@ -80,7 +86,6 @@ public class RoomTest {
 
     @Test
     public void getAllies(){
-    room.getAllies();
-    assertEquals(room.allies, room.getAllies());
+    assertEquals(2, room.getAllies().size());
     }
 }

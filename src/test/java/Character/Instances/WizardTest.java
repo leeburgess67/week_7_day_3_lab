@@ -1,6 +1,9 @@
 package Character.Instances;
 
 import Items.Instances.Fire;
+import Items.Instances.Poison;
+import Items.Instances.Potion;
+import Items.ItemType.Spell;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,18 +14,21 @@ public class WizardTest {
     private Wizard wizard;
     private Wizard wizard2;
     private Fire fire;
+    private Poison poison;
 
     @Before
     public void setUp() {
         wizard = new Wizard("Merlin", 20, 30, false, 40);
         wizard2 = new Wizard("Merlin", 20, 30, true, 40);
         fire = new Fire("Fire", 7, 5);
+        poison = new Poison("Potion", 5, 5);
     }
 
     @Test
     public void cast() {
         wizard.cast(fire, wizard2);
         assertEquals(13, wizard2.getHealth());
+        //poison extends Spell so why not accepted?
 
     }
 

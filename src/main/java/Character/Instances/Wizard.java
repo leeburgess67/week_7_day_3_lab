@@ -7,9 +7,9 @@ import Items.ItemType.Weapon;
 
 import java.util.ArrayList;
 
-public class Wizard implements ICaster {
+public class Wizard implements ICaster{
 
-    private Weapon activeSpell;
+
     private int health;
     int magic;
     boolean enemy;
@@ -19,7 +19,6 @@ public class Wizard implements ICaster {
 
     public Wizard(String name, int health, int magic, boolean enemy, int wallet) {
         this.wallet = wallet;
-        this.activeSpell = null;
         this.magic = magic;
         this.enemy = enemy;
         this.health = health;
@@ -59,6 +58,7 @@ public class Wizard implements ICaster {
         this.health += heal;
     }
 
+
     @Override
     public boolean isEnemy() {
         return this.enemy;
@@ -85,4 +85,6 @@ public class Wizard implements ICaster {
     public String getName() {
         return this.name;
     }
+
+
 }

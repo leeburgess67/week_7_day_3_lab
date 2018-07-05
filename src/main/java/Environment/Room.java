@@ -54,20 +54,31 @@ public class Room {
             this.isPlayersTurn = true;
         }
     }
+
+    public ArrayList<ICharacter> getCharacters(){
+        ArrayList<ICharacter> characters = new ArrayList<>();
+        characters.addAll(melees);
+        characters.addAll(casters);
+        characters.addAll(healers);
+        return characters;
+    }
 //Are {} correct?
     public ArrayList<ICharacter> getAllies() {
         //should it be ICharacter melee etc?
+        ArrayList<ICharacter> allies = new ArrayList<>();
         for (IMelee melee : melees) {
-            for (IHealer healer : healers) {
-                for (ICaster caster : casters) {
-                    if (!melee.isEnemy()) {
-                        allies.add(melee);
-                    } else if (!healer.isEnemy()) {
-                        allies.add(healer);
-                    } else if (!caster.isEnemy()) {
-                        allies.add(caster);
-                    }
-                }
+            if (!melee.isEnemy()) {
+                allies.add(melee);
+            }
+        }
+        for (IHealer healer : healers) {
+            if (!healer.isEnemy()) {
+                allies.add(healer);
+            }
+        }
+        for (ICaster caster : casters) {
+            if (!caster.isEnemy()) {
+                allies.add(caster);
             }
         }
         return allies;

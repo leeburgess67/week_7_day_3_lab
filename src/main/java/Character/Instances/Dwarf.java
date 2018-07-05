@@ -6,7 +6,7 @@ import Character.ICharacter;
 
 import java.util.ArrayList;
 
-public class Dwarf implements IMelee {
+public class Dwarf implements IMelee{
 
     private Weapon activeWeapon;
     private int health;
